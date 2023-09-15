@@ -19,23 +19,26 @@ find / -type f -size +100M -exec ls -lh {} \; | awk '{ print $9 "|| Size : " $5 
 ***
 | S.No. | Link |
 |:-----|:------:|
-|vi <filename>| |Open or edit a file.|
+| **vi filename** |  Open or edit a file |  
+| **i** | Switch to Insert mode  |  
+| **G** |  Go to the last line in a file |  
+| **XG** | Go to line X in a file.  |  
+| **gg** |  Go to the first line in a file. |  
+| **Esc** | Switch to Command mode.  |  
+| **:w** |  Save and continue editing. |  
+| **:wq** | Save and quit/exit vi.  |  
+| **:q!** |  Quit vi and do not save changes. |  
+| **dd** |  Delete an entire line. |  
+| **Xdd** |  Delete X number of lines. |  
+| **:num** | Display the current line’s line number.  |  
+|  |   |  
+|  |   |  
+|  |   |  
+|  |   |  
+|  |   |  
 
 ***
 
-
-
-**i** — Switch to Insert mode.  
-**G** — Go to the last line in a file.  
-**XG** — Go to line X in a file.  
-**gg** — Go to the first line in a file.  
-**Esc** — Switch to Command mode.   
-**:w** — Save and continue editing.  
-**:wq** or ZZ — Save and quit/exit vi.  
-**:q!** — Quit vi and do not save changes.  
-**dd** — Delete an entire line.   
-**Xdd** — Delete X number of lines.  
-**:num** — Display the current line’s line number.
 yy — Yank (copy) a line of text.   
 p — Paste a line of yanked text below the current line.  
 o — Open a new line under the current line.  
