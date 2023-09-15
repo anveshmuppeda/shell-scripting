@@ -27,7 +27,7 @@ find / -type f -size +100M -exec ls -lh {} \; | awk '{ print $9 "|| Size : " $5 
 **:q!** — Quit vi and do not save changes.  
 **dd** — Delete an entire line.   
 **Xdd** — Delete X number of lines.  
-**:num** — Display the current line’s line number.  
+**:num** — Display the current line’s line number.
 yy — Yank (copy) a line of text.   
 p — Paste a line of yanked text below the current line.  
 o — Open a new line under the current line.  
