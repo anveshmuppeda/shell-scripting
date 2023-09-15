@@ -1,12 +1,18 @@
 # Linux Cheatsheet 
 
+1. [ Find ](#find)
+2. [ VI Editor ](#vieditor)
 
+<a name="find"></a>
 ## FIND
 ### Find files larger than given size (gb/mb/kb/bytes) 
 ```
 find / -type f -size +100M -exec ls -lh {} \; | awk '{ print $9 "|| Size : " $5 }'
 ```
 
+---
+
+<a name="vieditor"></a>
 ## VI EDITOR  
 ## VI Editor Shortcuts 
 
