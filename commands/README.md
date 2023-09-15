@@ -16,7 +16,15 @@ find / -type f -size +100M -exec ls -lh {} \; | awk '{ print $9 "|| Size : " $5 
 ## VI EDITOR  
 ## VI Editor Shortcuts 
 
-**vi <filename>** — Open or edit a file.  
+***
+| S.No. | Link |
+|:-----|:------:|
+|vi <filename>| |Open or edit a file.|
+
+***
+
+
+
 **i** — Switch to Insert mode.  
 **G** — Go to the last line in a file.  
 **XG** — Go to line X in a file.  
